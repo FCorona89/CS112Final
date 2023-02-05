@@ -1,0 +1,120 @@
+<!--Developer: Francisco Corona
+	Program: Comedy Board, Stand up comedy and open mic events near your zip code
+	Page: Contact Page
+	Class: CS112 - Javascript Prog #12501 & #12502
+	Professor: C. Rodriguez
+	Created: 01/06/2023	
+-->
+<!doctype html>
+<!--HTML code and language configuration -->
+<html lang="en">
+		<!-- Webpage configuration -->
+		<head>
+			<meta cherset="utf-8">
+			<!-- link to css file for div design-->
+			<link href="comedyboard.css" rel="stylesheet">		
+			<!-- link to second css file for image changes-->
+			<link href="images.css" rel="stylesheet">
+			<!-- Title setting at browser tab -->		
+			
+						
+			<title>	Home Comedy Board</title>
+			
+			<!--jQuery file -->
+			<script src="js/jquery-migrate-1.4.1.min"></script>	
+		
+		</head>		
+		<body>
+			<div id="wrapper-home-div">	
+			
+				<div id="top-div">Navigate at Page Footer
+					</div>								
+							
+					<div id="header-banner-home-div">Welcome to ComedyBoard "Lets Laugh!!"			
+					</div>					
+				<div id="slider">
+					<b href="1.jpeg">
+						<img 
+							src ="1.jpg"
+							height="400"
+							width="800"
+							></b>
+					<b href="2.jpeg">
+						<img 
+							src ="2.jpg"
+							height="400"
+							width="800"
+							></b>
+					<b href="3.jpeg">
+						<img 
+							src ="3.jpg"
+							height="400"
+							width="800"
+							></b>
+				</div>
+				
+				<!-- Page Specific -->
+				<div id="mainclubs-div">
+					<div id="box1-div">
+						<p id="club">The Improv</p>
+						<p><a id="sitelink" href="https://www.improv.com/" target="_blank">Visit The Improv</a></p>				
+					</div>				
+					<div id="box3-div">
+						<p id="club">The Comedy Store</p>
+						<p><a id="sitelink" href="https://www.thecomedystore.com/" target="_blank">Visit The Comedy Store</a></p>	
+					</div>				
+					<div id="box2-div">
+						<p id="club">The Laugh Factory</p>
+						<p><a id="sitelink" href="https://www.laughfactory.com/" target="_blank">Visit The Laugh Factory</a></p>	
+					</div>
+				</div>	
+				<div id="mainclubs-div">				
+					<div id="box1-div">
+						<p id="club">The Bourbon Room</p>
+						<p><a id="sitelink" href="https://www.bourbonroomhollywood.com/" target="_blank">Visit The Bourbon Room</a></p>
+					</div>			
+					<div id="box3-div">				
+						<button class="btn btn-danger">Coming Soon</button>
+						</div>				
+					<div id="box2-div">						
+						<button class="btn btn-danger">Coming Soon</button>
+					</div>
+				</div>							
+				<div id="footer-home-div">
+					<dl>
+						<dt><a id="footerfont" href="file:///C:/Users/franciscoc/Documents/School/CS112%20-%20JavaScript/Website%20Project/root%20dir/contact.html">Contact Us</dt>
+						<dd><a id="footerfont" href="file:///C:/Users/franciscoc/Documents/School/CS112%20-%20JavaScript/Website%20Project/root%20dir/service.html">Products & Services</dd>
+						<dd><a id="footerfont" href="file:///C:/Users/franciscoc/Documents/School/CS112%20-%20JavaScript/Website%20Project/root%20dir/startbootstrap-new-age-master/dist/app.html">Mobile App</dd>
+						<dd><a id="footerfont" href="http://www.freepik.com" target="_blank">Images Designed by katemangostar/Freepik</dd>
+					</dl>				
+				</div>	
+				<!-- Page Specific -->
+			</div>
+			
+			<script>
+				document.addEventListener("DOMContentLoaded", function() {
+				var fadeComplete = function(e) { stage.appendChild(arr[0]); };
+				var stage = document.getElementById("slider");
+				var arr = stage.getElementsByTagName("b");
+				for(var i=0; i < arr.length; i++) {
+				arr[i].addEventListener("animationend", fadeComplete, false);     
+				}
+				}, false);
+			</script>
+			
+		</body>
+		<!-- JQuery -->
+			<script
+				src="https://code.jquery.com/jquery-3.6.3.min.js"
+				integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+				crossorigin="anonymous"></script>
+				
+				
+				
+			<!--Script file for JQuery function -->	
+			<script src="js/script.js"></script>
+			<!-- Bootstrap link -->
+<!--			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+-->
+</html>

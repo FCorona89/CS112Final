@@ -1,0 +1,15 @@
+Update details
+		Enter latest update notes on top
+		
+		02/04/23, Francisco Corona, Added slide show images
+									Changed background color to black, more attractive for night life entertainment
+		01/24/23, Francisco Corona, Changed the appearance of the "Coming Soon" button with bootstrap
+		01/23/23, Francisco Corona, Added Jquery file to root folder
+		01/12/23, Francisco Corona, Added app page including a free boostrap template, modified text and linked it to the other 3 pages.
+		01/11/23, Francisco Corona, Created contact and service pages, Added .css file and reduced the lines of code between 3 pages, 
+									Added links to comedy club websites, Improv, Comedy Store, Laugh Factory, Bourbon Room, 
+									Linked website pages to eachother
+		01/10/23, Francisco Corona, Added background color, image, and list
+		01/08/23, Francisco Corona, Website Layout finished
+		01/07/23, Francisco Corona, Website layout continued & comments added
+		01/06/23, Francisco Corona, Website layout created
